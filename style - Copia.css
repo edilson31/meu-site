@@ -1,0 +1,182 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #0f12cc;
+    color: #000000;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-logo {
+    width: 150px;
+  }
+  
+  .header-nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .header-nav-list-item {
+    margin-left: 20px;
+  }
+  
+  .header-nav-list-item a {
+    text-decoration: none;
+    color: #1b1c7c;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .header-nav-list-item a:hover {
+    color: #325f70;
+  }
+  
+  /* Section Styles */
+  .section {
+    padding: 80px 0;
+    background-color: #264199;
+  }
+  
+  .section-about {
+    text-align: center;
+  }
+  
+  .section-about .section-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .section-about .section-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+  
+  .section-image {
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .section-students .section-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .students-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+  }
+  
+  .student {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .student-image {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .student-info .student-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .student-info .student-description {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .student-instagram {
+    display: inline-block;
+  }
+  
+  .student-instagram img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+  }
+  
+  .student-instagram:hover img {
+    transform: scale(1.1);
+  }
+  
+  .section-contact {
+    text-align: center;
+  }
+  
+  .section-contact .section-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .section-contact .section-text {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .contact-list-item {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .header-nav-list {
+      flex-direction: column;
+      margin-top: 10px;
+    }
+  
+    .header-nav-list-item {
+      margin: 10px 0;
+    }
+  
+    .section-about .section-title,
+    .section-students .section-title,
+    .section-contact .section-title {
+      font-size: 30px;
+    }
+  }
+  

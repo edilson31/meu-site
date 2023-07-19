@@ -1,0 +1,101 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #01032b;
+    color: #ffffff;
+}
+
+/* Estilos da seção "escola" */
+.escola {
+    padding: 40px 20px;
+    background-color: #3b4a4b;
+    color: #fff;
+    text-align: center;
+}
+
+.escola-titulo {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.escola-texto-um {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.escola-imagem {
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Estilos da seção "estudante" */
+.estudante {
+    padding: 40px 20px;
+    background-color: #254655;
+    color: #fff;
+    text-align: center;
+}
+
+.estudante h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.estudante-todos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.aluno {
+    width: 220px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+.aluno h3 {
+    margin-top: 0;
+}
+
+.imagem-estudante {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.imagem-estudante,
+.instagram-logo {
+    display: block;
+    margin: 10px auto;
+}
+
+.aluno p {
+    font-size: 14px;
+}
+
+/* Estilos da seção "informacoes-adicionais" */
+.informacoes-adicionais {
+    padding: 40px 20px;
+    background-color: #111e36;
+    color: #fff;
+    text-align: center;
+}
+
+.informacoes-adicionais h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.informacoes-adicionais address {
+    font-style: normal;
+}
+.instagram-logo {
+    width: 20px;
+    height: auto;
+}
